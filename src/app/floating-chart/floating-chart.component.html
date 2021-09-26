@@ -1,0 +1,139 @@
+<section class="content">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12">
+          <!-- interactive chart -->
+          <div class="card card-primary card-outline">
+            <div class="card-header">
+              <h3 class="card-title">
+                <i class="far fa-chart-bar"></i>
+                Interactive Area Chart
+              </h3>
+
+              <div class="card-tools">
+                Real time
+                <div class="btn-group" id="realtime" data-toggle="btn-toggle">
+                  <button type="button" class="btn btn-default btn-sm active" data-toggle="on">On</button>
+                  <button type="button" class="btn btn-default btn-sm" data-toggle="off">Off</button>
+                </div>
+              </div>
+            </div>
+            <div class="card-body">
+              <div id="interactive" style="height: 300px; padding: 0px; position: relative;"><canvas class="flot-base" style="direction: ltr; position: absolute; left: 0px; top: 0px; width: 1587px; height: 300px;" width="1587" height="300"></canvas><canvas class="flot-overlay" style="direction: ltr; position: absolute; left: 0px; top: 0px; width: 1587px; height: 300px;" width="1587" height="300"></canvas><div class="flot-svg" style="position: absolute; top: 0px; left: 0px; height: 100%; width: 100%; pointer-events: none;"><svg style="width: 100%; height: 100%;"><g class="flot-x-axis flot-x1-axis xAxis x1Axis" style="position: absolute; inset: 0px;"><text style="position: absolute; text-align: center;" x="28" y="293.75" class="flot-tick-label tickLabel">0</text><text style="position: absolute; text-align: center;" x="180.2876263579937" y="293.75" class="flot-tick-label tickLabel">10</text><text style="position: absolute; text-align: center;" x="336.55025262062" y="293.75" class="flot-tick-label tickLabel">20</text><text style="position: absolute; text-align: center;" x="492.81287888324624" y="293.75" class="flot-tick-label tickLabel">30</text><text style="position: absolute; text-align: center;" x="649.0755051458725" y="293.75" class="flot-tick-label tickLabel">40</text><text style="position: absolute; text-align: center;" x="805.3381314084987" y="293.75" class="flot-tick-label tickLabel">50</text><text style="position: absolute; text-align: center;" x="961.600757671125" y="293.75" class="flot-tick-label tickLabel">60</text><text style="position: absolute; text-align: center;" x="1117.8633839337513" y="293.75" class="flot-tick-label tickLabel">70</text><text style="position: absolute; text-align: center;" x="1274.1260101963776" y="293.75" class="flot-tick-label tickLabel">80</text><text style="position: absolute; text-align: center;" x="1430.3886364590037" y="293.75" class="flot-tick-label tickLabel">90</text></g><g class="flot-y-axis flot-y1-axis yAxis y1Axis" style="position: absolute; inset: 0px;"><text style="position: absolute; text-align: right;" x="8.949999809265137" y="268.25" class="flot-tick-label tickLabel">0</text><text style="position: absolute; text-align: right;" x="1" y="217.85" class="flot-tick-label tickLabel">20</text><text style="position: absolute; text-align: right;" x="1" y="167.45" class="flot-tick-label tickLabel">40</text><text style="position: absolute; text-align: right;" x="1" y="117.05" class="flot-tick-label tickLabel">60</text><text style="position: absolute; text-align: right;" x="1" y="66.65" class="flot-tick-label tickLabel">80</text><text style="position: absolute; text-align: right;" x="-6.949999809265137" y="16.25" class="flot-tick-label tickLabel">100</text></g></svg></div></div>
+            </div>
+            <!-- /.card-body-->
+          </div>
+          <!-- /.card -->
+
+        </div>
+        <!-- /.col -->
+      </div>
+      <!-- /.row -->
+
+      <div class="row">
+        <div class="col-md-6">
+          <!-- Line chart -->
+          <div class="card card-primary card-outline">
+            <div class="card-header">
+              <h3 class="card-title">
+                <i class="far fa-chart-bar"></i>
+                Line Chart
+              </h3>
+
+              <div class="card-tools">
+                <button type="button" class="btn btn-tool" data-card-widget="collapse">
+                  <i class="fas fa-minus"></i>
+                </button>
+                <button type="button" class="btn btn-tool" data-card-widget="remove">
+                  <i class="fas fa-times"></i>
+                </button>
+              </div>
+            </div>
+            <div class="card-body">
+              <div id="line-chart" style="height: 300px; padding: 0px; position: relative;"><canvas class="flot-base" style="direction: ltr; position: absolute; left: 0px; top: 0px; width: 766px; height: 300px;" width="766" height="300"></canvas><canvas class="flot-overlay" style="direction: ltr; position: absolute; left: 0px; top: 0px; width: 766px; height: 300px;" width="766" height="300"></canvas><div class="flot-svg" style="position: absolute; top: 0px; left: 0px; height: 100%; width: 100%; pointer-events: none;"><svg style="width: 100%; height: 100%;"><g class="flot-x-axis flot-x1-axis xAxis x1Axis" style="position: absolute; inset: 0px;"><text style="position: absolute; text-align: center;" x="37" y="293.75" class="flot-tick-label tickLabel">0</text><text style="position: absolute; text-align: center;" x="143.22222222222223" y="293.75" class="flot-tick-label tickLabel">2</text><text style="position: absolute; text-align: center;" x="249.44444444444446" y="293.75" class="flot-tick-label tickLabel">4</text><text style="position: absolute; text-align: center;" x="355.6666666666667" y="293.75" class="flot-tick-label tickLabel">6</text><text style="position: absolute; text-align: center;" x="461.8888888888889" y="293.75" class="flot-tick-label tickLabel">8</text><text style="position: absolute; text-align: center;" x="564.1361112064785" y="293.75" class="flot-tick-label tickLabel">10</text><text style="position: absolute; text-align: center;" x="670.3583334287008" y="293.75" class="flot-tick-label tickLabel">12</text></g><g class="flot-y-axis flot-y1-axis yAxis y1Axis" style="position: absolute; inset: 0px;"><text style="position: absolute; text-align: right;" x="1" y="268.25" class="flot-tick-label tickLabel">-1.5</text><text style="position: absolute; text-align: right;" x="1" y="226.25" class="flot-tick-label tickLabel">-1.0</text><text style="position: absolute; text-align: right;" x="1" y="184.25" class="flot-tick-label tickLabel">-0.5</text><text style="position: absolute; text-align: right;" x="5.983333587646484" y="16.25" class="flot-tick-label tickLabel">1.5</text><text style="position: absolute; text-align: right;" x="5.983333587646484" y="142.25" class="flot-tick-label tickLabel">0.0</text><text style="position: absolute; text-align: right;" x="5.983333587646484" y="100.25" class="flot-tick-label tickLabel">0.5</text><text style="position: absolute; text-align: right;" x="5.983333587646484" y="58.25" class="flot-tick-label tickLabel">1.0</text></g></svg></div></div>
+            </div>
+            <!-- /.card-body-->
+          </div>
+          <!-- /.card -->
+
+          <!-- Area chart -->
+          <div class="card card-primary card-outline">
+            <div class="card-header">
+              <h3 class="card-title">
+                <i class="far fa-chart-bar"></i>
+                Area Chart
+              </h3>
+
+              <div class="card-tools">
+                <button type="button" class="btn btn-tool" data-card-widget="collapse">
+                  <i class="fas fa-minus"></i>
+                </button>
+                <button type="button" class="btn btn-tool" data-card-widget="remove">
+                  <i class="fas fa-times"></i>
+                </button>
+              </div>
+            </div>
+            <div class="card-body">
+              <div id="area-chart" style="height: 338px; padding: 0px; position: relative;" class="full-width-chart"><canvas class="flot-base" style="direction: ltr; position: absolute; left: 0px; top: 0px; width: 804px; height: 338px;" width="804" height="338"></canvas><canvas class="flot-overlay" style="direction: ltr; position: absolute; left: 0px; top: 0px; width: 804px; height: 338px;" width="804" height="338"></canvas></div>
+            </div>
+            <!-- /.card-body-->
+          </div>
+          <!-- /.card -->
+
+        </div>
+        <!-- /.col -->
+
+        <div class="col-md-6">
+          <!-- Bar chart -->
+          <div class="card card-primary card-outline">
+            <div class="card-header">
+              <h3 class="card-title">
+                <i class="far fa-chart-bar"></i>
+                Bar Chart
+              </h3>
+
+              <div class="card-tools">
+                <button type="button" class="btn btn-tool" data-card-widget="collapse">
+                  <i class="fas fa-minus"></i>
+                </button>
+                <button type="button" class="btn btn-tool" data-card-widget="remove">
+                  <i class="fas fa-times"></i>
+                </button>
+              </div>
+            </div>
+            <div class="card-body">
+              <div id="bar-chart" style="height: 300px; padding: 0px; position: relative;"><canvas class="flot-base" style="direction: ltr; position: absolute; left: 0px; top: 0px; width: 766px; height: 300px;" width="766" height="300"></canvas><canvas class="flot-overlay" style="direction: ltr; position: absolute; left: 0px; top: 0px; width: 766px; height: 300px;" width="766" height="300"></canvas><div class="flot-svg" style="position: absolute; top: 0px; left: 0px; height: 100%; width: 100%; pointer-events: none;"><svg style="width: 100%; height: 100%;"><g class="flot-x-axis flot-x1-axis xAxis x1Axis" style="position: absolute; inset: 0px;"><text style="position: absolute; text-align: center;" x="161.406060478904" y="293.75" class="flot-tick-label tickLabel">February</text><text style="position: absolute; text-align: center;" x="299.0409098538485" y="293.75" class="flot-tick-label tickLabel">March</text><text style="position: absolute; text-align: center;" x="431.83409109982574" y="293.75" class="flot-tick-label tickLabel">April</text><text style="position: absolute; text-align: center;" x="561.377272345803" y="293.75" class="flot-tick-label tickLabel">May</text><text style="position: absolute; text-align: center;" x="36.34621186689897" y="293.75" class="flot-tick-label tickLabel">January</text><text style="position: absolute; text-align: center;" x="686.4787869886918" y="293.75" class="flot-tick-label tickLabel">June</text></g><g class="flot-y-axis flot-y1-axis yAxis y1Axis" style="position: absolute; inset: 0px;"><text style="position: absolute; text-align: right;" x="8.949999809265137" y="268.25" class="flot-tick-label tickLabel">0</text><text style="position: absolute; text-align: right;" x="8.949999809265137" y="205.25" class="flot-tick-label tickLabel">5</text><text style="position: absolute; text-align: right;" x="1" y="16.25" class="flot-tick-label tickLabel">20</text><text style="position: absolute; text-align: right;" x="1" y="142.25" class="flot-tick-label tickLabel">10</text><text style="position: absolute; text-align: right;" x="1" y="79.25" class="flot-tick-label tickLabel">15</text></g></svg></div></div>
+            </div>
+            <!-- /.card-body-->
+          </div>
+          <!-- /.card -->
+
+          <!-- Donut chart -->
+          <div class="card card-primary card-outline">
+            <div class="card-header">
+              <h3 class="card-title">
+                <i class="far fa-chart-bar"></i>
+                Donut Chart
+              </h3>
+
+              <div class="card-tools">
+                <button type="button" class="btn btn-tool" data-card-widget="collapse">
+                  <i class="fas fa-minus"></i>
+                </button>
+                <button type="button" class="btn btn-tool" data-card-widget="remove">
+                  <i class="fas fa-times"></i>
+                </button>
+              </div>
+            </div>
+            <div class="card-body">
+              <div id="donut-chart" style="height: 300px; padding: 0px; position: relative;"><canvas class="flot-base" style="direction: ltr; position: absolute; left: 0px; top: 0px; width: 766px; height: 300px;" width="766" height="300"></canvas><canvas class="flot-overlay" style="direction: ltr; position: absolute; left: 0px; top: 0px; width: 766px; height: 300px;" width="766" height="300"></canvas><span class="pieLabel" id="pieLabel0" style="position: absolute; top: 69.5px; left: 440.95px;"><div style="font-size:13px; text-align:center; padding:2px; color: #fff; font-weight: 600;">Series2<br>30%</div></span><span class="pieLabel" id="pieLabel1" style="position: absolute; top: 209.5px; left: 418.95px;"><div style="font-size:13px; text-align:center; padding:2px; color: #fff; font-weight: 600;">Series3<br>20%</div></span><span class="pieLabel" id="pieLabel2" style="position: absolute; top: 128.5px; left: 259.95px;"><div style="font-size:13px; text-align:center; padding:2px; color: #fff; font-weight: 600;">Series4<br>50%</div></span></div>
+            </div>
+            <!-- /.card-body-->
+          </div>
+          <!-- /.card -->
+        </div>
+        <!-- /.col -->
+      </div>
+      <!-- /.row -->
+    </div><!-- /.container-fluid -->
+  </section>
