@@ -1,17 +1,13 @@
-<ul class="nav nav-tabs">
-  <li class="nav-item">
-    <a class="nav-link active"  [routerLink]="['chartjs/chart']">Chart</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link"  [routerLink]="['flot/floating-chart']">Flot</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link"  [routerLink]="['inline/inline-chart']">Inline</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link"  [routerLink]="['uplot/plot-chart']">uPlot</a>
-  </li>
-</ul>
-<section class="container">
-  <router-outlet></router-outlet>
-</section>
+  <main>
+    
+    <app-menu></app-menu>
+    <div class="b-example-divider"></div>
+
+    <div
+        class="container-fluid">
+        
+          <router-outlet></router-outlet>
+         
+      </div>
+  </main>
+ 
